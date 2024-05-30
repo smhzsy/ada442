@@ -37,7 +37,7 @@ def user_input_features():
     cons_price_idx = st.sidebar.number_input('Consumer Price Index', value=92.893, step=0.001)
     cons_conf_idx = st.sidebar.number_input('Consumer Confidence Index', value=-46.2, step=0.1)
     euribor3m = st.sidebar.number_input('Euribor 3 Month Rate', value=1.313, step=0.001)
-    nr_employed = st.sidebar.number_input('Number of Employees', value=5000, step=0.1)
+    nr_employed = st.sidebar.number_input('Number of Employees', value=5000.1, step=0.1)
 
     data = {
         'age': age,
